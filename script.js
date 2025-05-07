@@ -61,3 +61,28 @@ AOS.init({
     easing: 'ease-in-out',
     once: true
 });
+
+// Resume download functionality
+document.addEventListener('DOMContentLoaded', () => {
+    const downloadBtn = document.getElementById('downloadResume');
+    
+    if (downloadBtn) {
+        downloadBtn.addEventListener('click', (e) => {
+            // Show alert box
+            if (confirm('Your resume will be downloaded. Click OK to continue.')) {
+                // Prevent default behavior
+                e.preventDefault();
+                
+                // Create a new event to trigger the download
+                const event = new MouseEvent('click', {
+                    view: window,
+                    bubbles: true,
+                    cancelable: true
+                });
+                
+                // Dispatch the event
+                downloadBtn.dispatchEvent(event);
+            }
+        });
+    }
+});

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="100" cy="100" r="90" fill="#34d399"/>
+    <path d="M50 70 Q 30 90, 50 110 Q 70 130, 50 150" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M40 90 Q 20 110, 40 130 Q 60 150, 40 170" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M30 110 Q 10 130, 30 150 Q 50 170, 30 190" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M20 130 Q 0 150, 20 170 Q 40 190, 20 210" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text font-family="Poppins" font-weight="700">
+        <tspan font-size="80" fill="white" x="70" y="100">N</tspan>
+        <tspan font-size="80" fill="#059669" x="120" y="120">R</tspan>
+    </text>
+    <circle cx="100" cy="100" r="85" fill="none" stroke="white" stroke-width="2" stroke-dasharray="15,5"/>
+</svg>
